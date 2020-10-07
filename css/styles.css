@@ -179,12 +179,16 @@ ul {
   font-size: 16px;
   line-height: 1.6;
 }
-
-.button .title:hover,
-.button .title:focus {
-  color: var(--accent-text-color);
+.button .but:hover,
+.button .but:focus {
+  color: var(--hero-text-color);
+  background-color: var(--accent-text-color);
 }
 .button.primary {
   color: var(--hero-text-color);
   background-color: var(--accent-text-color);
+}
+
+.but {
+  border: 0px;
 }
